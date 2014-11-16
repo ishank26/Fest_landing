@@ -1,9 +1,6 @@
 // loader
 
 
-$(window).load(function() {
-    $("#loaderImage").fadeOut("slow");
-})
 
 
 
