@@ -2,7 +2,7 @@ $(function(){
         $.mbBgndGallery.buildGallery({
                 containment:"body",
                 timer:3000,
-                effTimer:2000,
+                effTimer:500,
                 effect:"zoom",
                 grayScale:false,
                images:[

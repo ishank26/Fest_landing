@@ -27,12 +27,12 @@ setInterval(function () {
     seconds_left = seconds_left % 86400;
      
     hours = parseInt(seconds_left / 3600);
+    seconds_left = seconds_left % 3600;
      
     minutes = parseInt(seconds_left / 60);
-     
     // format countdown string + set tag value
     countdown.innerHTML = '<div class="large-4 medium-4 small-12 columns"><span class="days">' + days +  ' <b>Days</b></span></div> <div class="large-4 medium-4 small-12 columns"><span class="hours">' + hours + ' <b>Hours</b></span></div> <div class="large-4 medium-4 small-12 columns"><span class="minutes">'
-    + minutes + ' <b>Minutes</b></span> </div>';  
+    + minutes + ' <b>Minutes</b></span></div>' ;  
  
 }, 1000);
 
